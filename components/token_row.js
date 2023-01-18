@@ -15,7 +15,6 @@ export default function TokenRow({token, onPressTokenRow}) {
                 alignItems: "center",
             }}>
                 <Text style={{fontSize: 15, marginRight: 10}}>{token.market_cap_rank}</Text>
-                {/*align the image and the name of the token to the left*/}
                 <View style={{flexDirection: "row", justifyContent: "flex-start"}}>
 
                     <Image source={{uri: token.image}} style={{width: 30, height: 30, marginRight: 10}}/>
